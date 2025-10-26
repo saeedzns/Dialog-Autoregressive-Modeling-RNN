@@ -7,6 +7,30 @@ This notebook was developed and tested entirely in **Google Colab**, so you can 
 
 ---
 
+## What the Model Does
+
+**Input:**  
+- Multi-turn human conversations from the **DailyDialog** dataset.  
+- Text is normalized, lowercased, and converted into sequences of integer-encoded characters.  
+- Each sequence represents one or more dialogue turns.
+
+**Process:**  
+- The **RNN** reads each character sequentially, maintaining a hidden state that represents context.  
+- At every step, it predicts the probability distribution of the next character using a softmax output layer.  
+- Training minimizes cross-entropy loss between predicted and actual characters.  
+- The model learns to mimic conversational patterns, tone, and punctuation through repetition.
+
+**Output:**  
+- Quantitative metrics: **loss** and **perplexity** for training, validation, and test sets.  
+- Qualitative results: automatically generated dialogues where each character is predicted by the model itself, such as:  
+  ```
+  ① hi, how are you today?
+  ② i'm doing well, thanks for asking!
+  ① good to hear that.
+  ```
+- Visualization: training curves for loss and learning rate, showing learning stability over epochs.
+
+---
 ## Environment
 
 Everything runs on Colab’s standard runtime.  
