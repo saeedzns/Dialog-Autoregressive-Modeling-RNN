@@ -78,7 +78,7 @@ Key sections of the notebook:
 ## How to Use
 
 1. **Open the notebook in Colab:**  
-   [Open in Colab →](https://colab.research.google.com/drive/1ewN-Z-eLGEd52Yy35Ua6idGHwPHi6D3t?usp=sharing)
+   [Open in Colab](https://colab.research.google.com/drive/1ewN-Z-eLGEd52Yy35Ua6idGHwPHi6D3t?usp=sharing)
 
 2. **Run all cells.**  
    The notebook will:
