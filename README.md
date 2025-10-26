@@ -52,7 +52,7 @@ pip install jax[cuda12] -f https://storage.googleapis.com/jax-releases/jax_cuda_
 
 ## Dataset
 
-The model uses the **DailyDialog** dataset (multi-turn human conversations), fetched automatically through **KaggleHub**:
+The model uses the [**DailyDialog**](https://www.kaggle.com/datasets/thedevastator/dailydialog-multi-turn-dialog-with-intention-and) dataset (multi-turn human conversations), fetched automatically through **KaggleHub**:
 
 ```python
 import kagglehub
